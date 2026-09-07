@@ -19,6 +19,7 @@ namespace OnlinePizzaWebApplication.Models
         public string Name { get; set; }
 
         public virtual ICollection<PizzaIngredients> PizzaIngredients { get; set; }
+        public string Test { get; set; }
 
     }
 }

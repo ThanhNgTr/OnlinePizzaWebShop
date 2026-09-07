@@ -24,6 +24,7 @@ namespace OnlinePizzaWebApplication.Models
         public string Description { get; set; }
 
         public virtual ICollection<Pizzas> Pizzas { get; set; }
+        public string Test { get; set; }
 
     }
 }
